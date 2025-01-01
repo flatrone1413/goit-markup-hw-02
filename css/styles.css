@@ -41,17 +41,17 @@ header address ul li a.info:hover{
     color: #404bbf;
 }
 
-.section-one{
+main .section-one{
     background-color: #2e2f42;
 }
-.section-one h1.baslik1{
+main .section-one h1.title-one{
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-.section-one button.order-button{
+main .section-one button.order-button{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -61,6 +61,23 @@ header address ul li a.info:hover{
     color: #ffffff;
     cursor: pointer;
 }
-.section-one button.order-button:hover{
+main .section-one button.order-button:hover{
     background-color: #404BBF;
+}
+main .section-two h2{
+    
+}
+main .section-two ul li h3.title-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+main .section-two ul li h3.job{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
 }
