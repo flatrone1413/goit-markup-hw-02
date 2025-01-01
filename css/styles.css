@@ -1,11 +1,11 @@
 body{
     color: #434455;
     background-color: #FFFFFF;
-    font-family:"Roboto,sans-serif";
+    font-family:"Roboto, sans-serif";
 }
 
-header nav a.logo-1{
-    font-family: "Raleway,sans-serif";
+header nav a.Logo-Main{
+    font-family: "Raleway, sans-serif";
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -14,6 +14,16 @@ header nav a.logo-1{
     color: #4d5ae5;
 
 }
-header a span.logo-2{
+header nav a span.Logo-Span{
     color: #2e2f42;
+}
+header nav ul li a.studio-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+header nav ul li a.studio-link:hover{
+    color: #404bbf;
 }
