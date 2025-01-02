@@ -4,6 +4,10 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+ul{
+    list-style-type: none;
+}
+
 header nav a.logo-main{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -25,7 +29,7 @@ header nav ul li a.nav-links{
     color: #2e2f42;
 }
 header nav ul li a.nav-links:hover{
-    color: #404bbf;
+    color: #404BBF;
 }
 header address.adresler{
     font-style: normal;
@@ -38,7 +42,7 @@ header address ul li a.info{
 
 }
 header address ul li a.info:hover{
-    color: #404bbf;
+    color: #404BBF;
 }
 
 main .section-one{
@@ -63,9 +67,6 @@ main .section-one button.order-button{
 }
 main .section-one button.order-button:hover{
     background-color: #404BBF;
-}
-main .section-two h2{
-    
 }
 main .section-two ul li h3.job-title{
     font-weight: 500;
@@ -107,9 +108,7 @@ main .section-two ul li h3.job-def{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.section-four{
 
-}
 .section-four h2.our-portfolio{
     font-size: 36px;
     line-height: 1.11;
