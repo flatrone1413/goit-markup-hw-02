@@ -67,16 +67,43 @@ main .section-one button.order-button:hover{
 main .section-two h2{
     
 }
-main .section-two ul li h3.teammate{
+main .section-two ul li h3.job-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-main .section-two ul li h3.job{
+main .section-two ul li h3.job-def{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;   
+    color: #434455;
+}
+.section-three{
+    background-color: #f4f4fd;
+}
+.section-three .our-team{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.section-three ul li.teammates{
+    background-color: #FFFFFF;
+}
+.section-three ul li h3.t-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.section-three ul li p.job{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+    color: #434455;
 }
