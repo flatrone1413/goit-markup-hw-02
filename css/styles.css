@@ -28,7 +28,8 @@ header nav ul li a.nav-links{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-header nav ul li a.nav-links:hover{
+header nav ul li a.nav-links:hover,
+a.nav-links:focus{
     color: #404BBF;
 }
 header address.adresler{
@@ -41,7 +42,8 @@ header address ul li a.info{
     color: #434455;
 
 }
-header address ul li a.info:hover{
+header address ul li a.info:hover,
+a.info:focus{
     color: #404BBF;
 }
 
@@ -65,7 +67,9 @@ main .section-one button.order-button{
     color: #ffffff;
     cursor: pointer;
 }
-main .section-one button.order-button:hover{
+main .section-one button.order-button:hover,
+button.order-button:focus
+{
     background-color: #404BBF;
 }
 main .section-two ul li h3.job-title{
@@ -75,7 +79,7 @@ main .section-two ul li h3.job-title{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-main .section-two ul li h3.job-def{
+main .section-two ul li p.job-def{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
