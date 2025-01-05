@@ -68,8 +68,7 @@ main .section-one button.order-button{
     cursor: pointer;
 }
 main .section-one button.order-button:hover,
-button.order-button:focus
-{
+main .section-one button.order-button:focus{
     background-color: #404BBF;
 }
 main .section-two ul li h3.job-title{
